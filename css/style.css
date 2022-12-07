@@ -1,0 +1,141 @@
+body{
+	width: 100%;
+	margin: 0;
+}
+.header{
+	background-color: #212243;
+	color: #16C083;
+	text-align: center;
+}
+.header-h2{
+	padding-top: 25px;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.header-p{
+	padding-bottom: 25px;
+	margin: 0;
+}
+.body-header{
+	width: 200px;
+	height: 30px;
+	border: 10px solid #A6BACB;
+	background-color: #A6BACB;
+	border-radius: 5px 5px 0 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+.input{
+	font-size: 0;
+}
+.body-header-input{
+	border: 0;
+	height: 27px;
+	width: 195px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 2.5px;
+}
+.body-body{
+	width: 200px;
+	border: 10px solid #D7E1E2;
+	background-color: #D7E1E2;
+	border-radius: 0 0 5px 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+}
+.same-style-button{
+	width: 47px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+	border-radius: 5px;
+	margin-left: 1.5px;
+	margin-right: 1.5px;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+}
+.same-style-button:hover{
+	background-color: white;
+	color: red;
+	cursor: pointer;
+}
+.calculation-button{
+	width: 47px;
+	height: 30px;
+	background-color: #4E728A;
+	color: white;
+	border: 1px solid #4E728A;
+	border-radius: 5px;
+	margin-left: 1.5px;
+	margin-right: 1.5px;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+}
+.calculation-button:hover{
+	background-color: white;
+	color: #4E728A;
+	cursor: pointer;
+}
+.zero{
+	width: 97px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+	border-radius: 5px;
+	margin-left: 1.5px;
+	margin-right: 1.5px;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+}
+.zero:hover{
+	background-color: white;
+	color: red;
+	cursor: pointer;
+}
+.reset{
+	width: 97px;
+	height: 30px;
+	background-color: #F58200;
+	color: white;
+	border: 1px solid #F58200;
+	border-radius: 5px;
+	margin-left: 1.5px;
+	margin-right: 1.5px;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+}
+.reset:hover{
+	background-color: white;
+	color: #F58200;
+	cursor: pointer;
+}
+.footer{
+	background-color: #212243;
+	color: #16C083;
+	text-align: center;
+}
+.footer-h2{
+	padding-top: 30px;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.footer-p{
+	margin: 0;
+	margin-bottom: 5px;
+}
+.footer-a{
+	text-decoration: none;
+	color: #16C083;
+}
+.footer-a:hover{
+	color: #F57E00;
+}
+.footer-p2{
+	margin: 0;
+	padding-bottom: 30px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Welcome to Calculator. You can solve simple mathematic problems by using this website. This website is designed and developed by Md. Nafiul Islam.">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<link rel="icon" type="image/x-icon" href="images/icons/fav-icon.webp">
+	<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+</head>
+<body>
+	<div id="app">
+		<div class="header">
+			<h2 class="header-h2">Welcome to {{appName}}</h2>
+			<p class="header-p">You can solve simple mathematic problems by using this {{appName}}</p>
+		</div>
+		<div class="body-header">
+			<label for="input" class="input">Input</label>
+			<input id="input" class="body-header-input" :value="result" disabled>
+		</div>
+		<div class="body-body">
+			<button class="same-style-button" type="button" value="1" @click="input">1</button>
+			<button class="same-style-button" type="button" value="2" @click="input">2</button>
+			<button class="same-style-button" type="button" value="3" @click="input">3</button>
+			<button class="calculation-button" type="button" value="+" @click="plus">+</button>
+			<button class="same-style-button" type="button" value="4" @click="input">4</button>
+			<button class="same-style-button" type="button" value="5" @click="input">5</button>
+			<button class="same-style-button" type="button" value="6" @click="input">6</button>
+			<button class="calculation-button" type="button" value="-" @click="minus">-</button>
+			<button class="same-style-button" type="button" value="7" @click="input">7</button>
+			<button class="same-style-button" type="button" value="8" @click="input">8</button>
+			<button class="same-style-button" type="button" value="9" @click="input">9</button>
+			<button class="calculation-button" type="button" value="*" @click="multiple">*</button>
+			<button class="zero" type="button" value="0" @click="input">0</button>
+			<button class="same-style-button" type="button" value="." @click="input">.</button>
+			<button class="calculation-button" type="button" value="/" @click="devide">/</button>
+			<button class="reset" type="button" @click="reset">C</button>
+			<button class="same-style-button" type="button" @click="remove">⟵</button>
+			<button class="calculation-button" type="button" @click="equal">=</button>
+		</div>
+		<div class="footer">
+			<h2 class="footer-h2">Thanks for visiting {{appName}}</h2>
+			<p class="footer-p">This website is designed and developed by <a class="footer-a" :href="ownerGithubLink">{{ownerName}}</a></p>
+			<p class="footer-p2">©{{currentYear}} All rights reserved | {{appName}}</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/app.min.js"></script>
+</body>
+</html>
